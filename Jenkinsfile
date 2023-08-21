@@ -22,7 +22,7 @@ pipeline {
         }
         stage('Deploy'){
             steps {
-                echo 'geting dependency to deploy app'
+                echo 'getting dependency to deploy app'
                 bat 'mvn install'
             }
         }
